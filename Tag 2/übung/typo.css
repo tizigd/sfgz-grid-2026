@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Stripedsans";
+  src: url("StripedSansBlack.ttf.woff") format("woff");
+}
+
+
+    div {
+    font-family: "Stripedsans";
+    background-color: rgb(241, 221, 9);
+    
+    
+    
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 80pt;
+    color: #2b2727;
+    font-family: "Stripedsans" ;
+    margin-bottom: 50pt;
+    margin-left: 30pt;
+    padding: 20pt;
+}
+li{font-size: 3rem;
+list-style-type: circle
+padding-bottom: 1rem;
+}
+
+
+
+
+

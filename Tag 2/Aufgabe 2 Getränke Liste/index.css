@@ -1,0 +1,57 @@
+/* Schriftart und Hintergrund der Seite */
+@font-face {
+  font-family: alfa;
+  src: url();
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.getraenke-liste {
+  list-style: none; /* Macht die normalen Punkte weg */
+  padding: 0;
+  max-width: 400px;
+}
+
+/* Einzelne Listenelemente (Kästchen) */
+.getraenke-liste li {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between; /* Name links, Zucker rechts */
+  cursor: pointer; /* Zeigt die Hand als Mauszeiger */
+  transition: 0.2s; /* Macht die Bewegung flüssig */
+}
+
+
+.getraenke-liste li:hover {
+  background-color: #e0f0ff;
+  transform: scale(1.03); /* Wird ganz leicht größer */
+}
+
+/* Was passiert, wenn man mit der Maus DRAUFKLICKT */
+.getraenke-liste li:active {
+  background-color: #b3d8ff; /* Wird etwas dunkler blau beim Klicken */
+  transform: scale(0.98); /* Drückt sich leicht ein */
+}
+.redbull-bild {
+  width: 100px;
+  display: block;
+  margin: 100px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cola-bild {
+  width: 100px;
+  display: block;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+}
+
