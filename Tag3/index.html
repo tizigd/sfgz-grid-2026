@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoom-Galerie mit Flexbox</title>
+    <link rel="stylesheet" href="css/galerie.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Getränkeliste</h1>
+      <p class="subtitle">
+        Fahrt mit der Maus über die Bilder – oder springt mit der Tab-Taste von
+        Bild zu Bild.
+      </p>
+
+      <!--
+      Die Galerie ist die Leine (Flex-Container).
+      Jede figure ist ein Bild an der Leine (Flex-Item).
+
+      tabindex="0" macht die Bilder mit der Tastatur erreichbar.
+      So funktioniert der Zoom auch ohne Maus.
+
+      Eigene Bilder: in den Ordner images/ legen und
+      src + alt anpassen. Das Format ist egal – object-fit
+      sorgt dafür, dass jedes Bild den Rahmen füllt.
+    -->
+      <ul class="getraenke-liste">
+        <li><strong>Red Bull Lime</strong> – 11,0 g Zucker</li>
+        <li><strong>Coca-Cola</strong> – 10,6 g Zucker</li>
+        <li><strong>Andros Orangensaft</strong> – 10,0 g Zucker</li>
+        <li><strong>Apfelmost</strong> – 9,5 g Zucker</li>
+        <li><strong>San Pellegrino Aranciata </strong> – 9,0 g</li>
+        <li><strong>Peace Tea</strong> – 7,5 g Zucker</li>
+        <li><strong>Cappuccino</strong> – 4,5 g Zucker</li>
+        <li><strong>Migros Ice Tea</strong> – 4,2 g Zucker</li>
+      </ul>
+      <div class="galerie">
+        <figure class="bild" tabindex="0">
+          <img src="fotos/Redbull.jpeg" alt="Beschreibung von Bild 1" />
+        </figure>
+
+        <figure class="bild" tabindex="0">
+          <img src="fotos/Cola.jpeg" alt="Beschreibung von Bild 2" />
+        </figure>
+
+        <figure class="bild" tabindex="0">
+          <img src="fotos/Ice Tea.jpeg" alt="Beschreibung von Bild 3" />
+        </figure>
+
+        <figure class="bild" tabindex="0">
+          <img src="fotos/Lemon.jpeg" alt="Beschreibung von Bild 4" />
+        </figure>
+
+        <figure class="bild" tabindex="0">
+          <img src="fotos/orangen.jpeg" alt="Beschreibung von Bild 5" />
+        </figure>
+        <figure class="bild" tabindex="0">
+          <img src="fotos/Peace Tea.jpeg" alt="Beschreibung von Bild 4" />
+        </figure>
+        <figure class="bild" tabindex="0">
+         
+        <figure class="bild" tabindex="0">
+          <img src="fotos/sanpellegrino.jpeg" alt="Beschreibung von Bild 4" />
+        </figure>
+      </div>
+    </main>
+  </body>
+</html>
