@@ -1,0 +1,28 @@
+div {
+  background-color: #c48d59;
+  color: rgb(40, 36, 45);
+  border: 1px solid #5a26b5;
+  padding: 20px;
+  margin: 12px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+.donnerstag {
+  color: rgb(17, 30, 13);
+  background-color: rgb(222, 85, 16);
+  padding: 10px;
+}
+
+.liste {
+  color: rgb(160, 54, 41);
+  border-radius: 20px;
+}
+
+img{
+  height: 400px;
+}
+
