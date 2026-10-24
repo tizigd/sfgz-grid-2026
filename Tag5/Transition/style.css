@@ -54,8 +54,8 @@
 }
 
 .eins { color: #ff1a00; }
-.zwei { color: #00b7ff;transform: translate(10px); }
-.drei { color: #ffd400; transform: translate(20px);}
+.zwei { color: #00b7ff;transform: translate(20px); }
+.drei { color: #ffd400; transform: translate(40px);}
 
 
 
