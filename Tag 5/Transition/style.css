@@ -1,0 +1,67 @@
+.group {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+/* beide Elemente liegen ursprünglich übereinander */
+.not_transformed,
+.transformed {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  height: 400px;
+  width: 400px;
+}
+
+/* zur visuellen Unterscheidung zwei unterschiedliche Stile zuweisen */
+.not_transformed {
+  background-color: black;
+}
+
+.transformed {
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+  font-size: 40px;
+}
+/* neue Klasse */
+.verschoben {
+  transform: translate(100px, 200px);
+}
+.rotieren{
+    transform: rotate(45deg);
+  
+}
+.origin{
+  transform-origin: right }
+  
+
+  .mix{
+    transform: scale(0.8) rotate(45deg);}
+    
+    .group {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.child {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin: 0;
+  font-size: 120px;
+  font-weight: 900;
+  mix-blend-mode: multiply;
+}
+
+.eins { color: #ff1a00; }
+.zwei { color: #00b7ff;transform: translate(10px); }
+.drei { color: #ffd400; transform: translate(20px);}
+
+
+
+
+
+
+   
+
+
