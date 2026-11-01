@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  font-family: "Changa One", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-size: 10vw;
+  color: #fff;
+}
+
+
+.o {
+  display: inline-block;
+  color: #ffcc00;
+  animation: huepfen 1.5s infinite alternate ease-in;
+}
+
+@keyframes huepfen {
+  from { transform: translateY(10) rotate(50deg); }
+  to   { transform: translateY(10.4em) rotate(-100deg); }
+}
