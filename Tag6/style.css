@@ -19,10 +19,10 @@ h1 {
 .o {
   display: inline-block;
   color: #ffcc00;
-  animation: huepfen 1s infinite alternate;
+  animation: huepfen 2.7s infinite alternate ease-in-out;
 }
 
 @keyframes huepfen {
-  from { transform: translateY(0); }
-  to   { transform: translateY(-40px); }
+  from { transform: translateY(50) rotate(50deg); }
+  to   { transform: translateY(10.4em) rotate(-100deg); }
 }
